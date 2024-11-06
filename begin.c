@@ -1,4 +1,11 @@
 #include<stdio.h>
 int main(){
-    printf("hello\bworld");
+    int n;
+    scanf("%d",&n);
+    if((n&1)==0){
+        printf("even");
+    }
+    else{
+        printf("odd");
+    }
 }
