@@ -1,10 +1,7 @@
-Write a C program to find the Factorial of a number
-Factorial is a sequence of a number where we multiply by all previous numbers. 
+// Factors of a Number in C
+// Here, in this page, we will discuss the program to find factors of a number in C programming language. We will discuss different methods to find the factors of the given number.
 
-factorial of n (n!) = 1 * 2 * 3 * 4....n
+// Example :
 
-
-Note : 0! = 1 and 1! = 1
-
-Example : 
-5! = 1 * 2 * 3 * 4 * 5 = 120
+// Input : 10
+// Output : 1, 2, 5, 10
