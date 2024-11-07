@@ -2,6 +2,7 @@
 int main(){
     int a=5;
     int *ptr=&a;
-    int **ptr2=&ptr;
-    printf("%d",**ptr2);
+    printf("%d\n",ptr);
+    ptr++;
+    printf("%d",ptr);
 }
