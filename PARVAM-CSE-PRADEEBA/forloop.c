@@ -1,12 +1,7 @@
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
-    if(n%3==0 && n%5==0){
-        printf("true");
-    }
-    else{
-        printf("false");
+    for(int i=2;i<=100;i+=2){
+        printf("%d ",i);
     }
     return 0;
 }
